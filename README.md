@@ -1,7 +1,7 @@
 Adapt
 ==============================
 
-Adpat is a Julia macchine learning suite coded from scratch.
+Adpat is a Julia machine learning suite coded from scratch.
 
 The main purpose is to implement simple algorithms in order to
 *prototype new models and ideas*.
