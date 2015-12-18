@@ -8,5 +8,9 @@ function l2_norm(a)
 end
 
 function ln_norm(a,power)
-    return (reduce(+, map(x -> x^power,a)))^(1/power)
+    if power == 1
+        return l1_norm(a)
+    else
+        return (reduce(+, map(x -> x^power,a)))^(1/power)
+    end
 end
