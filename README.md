@@ -7,7 +7,6 @@ The main purpose is to implement simple algorithms in order to
 *prototype new models and ideas*.
 
 
-
 Installation
 -----------------
 
@@ -22,6 +21,9 @@ Running
 
 Testing
 -----------------
+to run tests:
+
+   julia --color=yes test/runtests.jl
 
 
 Documentation
@@ -31,7 +33,6 @@ Documentation
 
 License
 ---------------
-
-
-see LICENSE.md
+see file
+   LICENSE.md
 
